@@ -1,8 +1,8 @@
 # BDownloader-v1.0
-An app to download videos on www.bilibili.com
-ADVANTAGES
-· FREE
-· No need to log in to BiliBili account
-· Open source
-· Changable DPI
-· Changable folder
+<p>An app to download videos on www.bilibili.com</p>
+<p><b>ADVANTAGES</b><p>
+<p>· FREE</p>
+<p>· No need to log in to BiliBili account</p>
+<p>· Open source</p>
+<p>· Changable DPI</p>
+<p>· Changable folder</p>
