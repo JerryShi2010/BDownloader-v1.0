@@ -1,9 +1,14 @@
-# BDownloader-v1.0
-<p>An app to download videos on www.bilibili.com</p>
-<p><a href="https://blog.csdn.net/yueryouyou_sbyyz/article/details/125140595](https://zhuanlan.zhihu.com/p/525049152">Explain in details I</a></p>
-<p><b>ADVANTAGES</b><p>
-<p>· FREE</p>
-<p>· No need to log in to BiliBili account</p>
-<p>· Open source</p>
-<p>· Changable DPI</p>
-<p>· Changable folder</p>
+# BDownloaderv1.0
+
+#### Introduction
+A simple, efficient, convenient and free video download tool for station B.
+
+#### Application function
+· High speed downloading
+· Batch downloading of sub-p video
+· Specified directory downloading
+· Downloading at a specified resolution and enjoy high-definition image quality without logging in
+
+#### Detailed source code
+[code explaination I](https://zhuanlan.zhihu.com/p/525049152)
+
