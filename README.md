@@ -1,7 +1,7 @@
 # BDownloaderv1.0
 
 #### Introduction
-A simple, efficient, convenient and free video download tool for station B.
+A simple, efficient, convenient and free video download tool for www.bilibili.com.
 
 #### Application function
 · High speed downloading
