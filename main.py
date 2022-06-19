@@ -316,11 +316,3 @@ Button4.bind("<Enter>",ChangeColor41)
 Button4.bind("<Leave>",ChangeColor42)
 Button4.place(x=240,y=250)
 root.mainloop()    
-# TODO:
-# 1. 关于
-# 2. 删除源文件
-# 3. 按钮效果
-# 4. 加载效果
-#。5. 标题
-# 6 合并 √
-# 7 权限 √
