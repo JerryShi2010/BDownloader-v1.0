@@ -100,15 +100,12 @@ def download(Av,Cid,Dpi,Paths,P,L):
             if exists:
                 video_content = r.get(base_url,headers=headers).content
                 audio_content = r.get(base_url2,headers=headers).content 
-                #print(video_content)
-                #print(audio_content)
                 P = str(P)
                 try:
                     with open(Paths+"Av"+Av+"Part"+P+".mp4","wb+") as file1,open(Paths+"AV"+Av+"Part"+P+".mp3","wb+") as file2:
                         file1.write(video_content)
                         file2.write(audio_content)
-                    ButtomLabel['text'] = '正在合成中……（'+str(int(P))+'/'+str(L)+'）请耐心等待。'                   
-                    #messagebox.showinfo('提示','正在合成中……（'+str(int(P))+'/'+str(L)+'）点击“确定”以继续。')                 
+                    ButtomLabel['text'] = '正在合成中……（'+str(int(P))+'/'+str(L)+'）请耐心等待。'                                   
                     video_path = VideoFileClip(Paths+"Av"+Av+"Part"+P+".mp4")
                     audio_path = AudioFileClip(Paths+"AV"+Av+"Part"+P+".mp3")
                     video = video_path.set_audio(audio_path)
@@ -123,11 +120,7 @@ def download(Av,Cid,Dpi,Paths,P,L):
 
             if exists == False:
                 return_ = "paths error"
-    return return_
-#print(BvToAv("BV1dY411s7Vd"))
-#print(AvToCid("252099419"))
-#download("252099419",'453665612',64,"E:/","1")
-                
+    return return_               
 pink = "#FB7299"   
 pink2 = "#C7425D"
 root = Tk()
